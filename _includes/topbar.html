@@ -23,7 +23,13 @@
 
           {% elsif forloop.last %}
             {% if page.collection == 'tabs' %}
-              <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
+              {% capture tab_name %}{{ item }}{% endcapture %}
+              {% if tab_name == 'tags' %}
+                {% assign breadcrumb_title = 'Búsqueda' %}
+              {% else %}
+                {% assign breadcrumb_title = site.data.locales[include.lang].tabs[item] | default: page.title %}
+              {% endif %}
+              <span>{{ breadcrumb_title }}</span>
             {% else %}
               <span>{{ page.title }}</span>
             {% endif %}
@@ -31,7 +37,13 @@
           {% elsif page.layout == 'category' or page.layout == 'tag' %}
             <span>
               <a href="{{ item | append: '/' | relative_url }}">
-                {{- site.data.locales[include.lang].tabs[item] | default: page.title -}}
+                {% capture tab_name %}{{ item }}{% endcapture %}
+                {% if tab_name == 'tags' %}
+                  {% assign breadcrumb_title = 'Búsqueda' %}
+                {% else %}
+                  {% assign breadcrumb_title = site.data.locales[include.lang].tabs[item] | default: page.title %}
+                {% endif %}
+                {{ breadcrumb_title }}
               </a>
             </span>
           {% endif %}

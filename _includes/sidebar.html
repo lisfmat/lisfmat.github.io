@@ -32,9 +32,13 @@
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
           <a href="{{ tab.url | relative_url }}" class="nav-link">
             <i class="fa-fw {{ tab.icon }}"></i>
-            {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
-
-            <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
+            {% capture tab_name %}{{ tab.url | split: '/' | last }}{% endcapture %}
+            {% if tab_name == 'tags' %}
+              {% assign tab_title = 'BÚSQUEDA' %}
+            {% else %}
+              {% assign tab_title = site.data.locales[include.lang].tabs[tab_name] | default: tab.title | upcase %}
+            {% endif %}
+            <span>{{ tab_title }}</span>
           </a>
         </li>
         <!-- .nav-item -->
