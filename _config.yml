@@ -6,27 +6,27 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: es-ES
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone: Asia/Shanghai
+timezone: America/Mexico_City
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Coordinación # El título principal de la página.
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Licenciatura en Ingeniería de Software # Subtítulo de la página
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Sitio de la Coordinación de la Licenciatura en Ingeniería de Software: Un portal para acceder a información importante del Programa de Estudios.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: ""
 
 github:
-  username: github_username # change to your github username
+  username: luisbastoUADY # change to your github username
 
 twitter:
   username: twitter_username # change to your twitter username
@@ -34,15 +34,18 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: M. en C. Luis Basto Díaz
+  email: LIS.fmat@correo.uady.mx # change to your email address
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    # El primer de estos links es al que apuntará el texto del footer, donde aparece el nombre Luis Basto
+    # Actualmente apunta al Teams para la Coordinación de LIS.
+    # - https://twitter.com/username # change to your twitter homepage
+    # - https://github.com/username # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://teams.microsoft.com/l/team/19%3A_QL9KwE1AIck1JgNmPBdgk6Qz2-vXNBKZo1zF9blH501%40thread.tacv2/conversations?groupId=11121a57-06a6-4f2d-98f5-7fcb8a436375&tenantId=2b83ac9e-2448-45df-9319-48d86236a5ea
+    - https://www.linkedin.com/in/luis-basto-diaz-41136396/
+
+google_site_verification: # fill in to your verification string
 
 # Site Verification Settings
 webmaster_verifications:
@@ -85,10 +88,11 @@ theme_mode: # [light | dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://chirpy-img.netlify.app"
+img_cdn:
 
+# PENDIENTE: CREAR LOGO Y REEMPLAZAR ESTE
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+avatar: https://avatars.githubusercontent.com/u/83410794?v=4
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -114,7 +118,6 @@ comments:
     category:
     category_id:
     mapping: # optional, default to 'pathname'
-    strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
@@ -215,4 +218,4 @@ jekyll-archives:
     tag: tag
   permalinks:
     tag: /tags/:name/
-    category: /categories/:name/
+    # category: /categories/:name/
