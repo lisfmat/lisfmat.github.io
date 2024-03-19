@@ -2,114 +2,58 @@
 layout: default
 refactor: true
 ---
-
 {% include lang.html %}
 
-{% assign pinned = site.posts | where: 'pin', 'true' %}
-{% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 class="mt-5">Licenciatura en Ingeniería de Software</h1>
 
-{% assign posts = '' | split: '' %}
+      <div class="objetivo">
+        <h2>Objetivo de la Licenciatura</h2>
+        <p>
+          Formar profesionistas que, mediante un enfoque sistemático, disciplinado y cuantificable, sean competentes en
+          los procesos de desarrollo, mantenimiento, innovación y gestión de proyectos de software, para dar solución a
+          problemáticas de las organizaciones, así como a necesidades de la sociedad, con apego a la ética profesional.
+        </p>
+      </div>
 
-<!-- Get pinned posts -->
+      <div class="areas">
+        <h2>Áreas de competencia</h2>
+        <p class="text-justify">
+          El Licenciado en Ingeniería de Software aplica técnicas, herramientas, métodos y procedimientos para
+          desarrollar y mantener software de aplicación que resuelvan problemas en diferentes áreas en una organización;
+          también, será capaz de administrar los procesos de desarrollo, mantenimiento, calidad, y configuración
+          delsoftware, así como realizar investigación sobre los procesos de desarrollo de software, con el propósito
+          demejorar la práctica profesional.
+        </p>
+        <p class="pt-4 pb-4">Por lo anterior, se establecen las siguientes áreas de competencia:</p>
 
-{% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
-{% assign pinned_num = pinned.size | minus: offset %}
+        <ul>
+          <li>
+            <span>Desarrollo de Software: </span>Desarrolla productos de software de calidad de pequeña a gran escala
+            aplicando técnicas, herramientas, métodos y procedimientos, a través de un enfoque sistemático, disciplinado
+            y cuantificable.
+          </li>
 
-{% if pinned_num > 0 %}
-  {% for i in (offset..pinned.size) limit: pinned_num %}
-    {% assign posts = posts | push: pinned[i] %}
-  {% endfor %}
-{% else %}
-  {% assign pinned_num = 0 %}
-{% endif %}
-
-<!-- Get default posts -->
-
-{% assign default_beg = offset | minus: pinned.size %}
-
-{% if default_beg < 0 %}
-  {% assign default_beg = 0 %}
-{% endif %}
-
-{% assign default_num = paginator.posts | size | minus: pinned_num %}
-{% assign default_end = default_beg | plus: default_num | minus: 1 %}
-
-{% if default_num > 0 %}
-  {% for i in (default_beg..default_end) %}
-    {% assign posts = posts | push: default[i] %}
-  {% endfor %}
-{% endif %}
-
-<div id="post-list" class="flex-grow-1 px-xl-1">
-  {% for post in posts %}
-    <article class="card-wrapper card">
-      <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
-        {% assign card_body_col = '12' %}
-
-        {% if post.image %}
-          {% assign src = post.image.path | default: post.image %}
-          {% unless src contains '//' %}
-            {% assign src = post.img_path | append: '/' | append: src | replace: '//', '/' %}
-          {% endunless %}
-
-          {% assign alt = post.image.alt | xml_escape | default: 'Preview Image' %}
-
-          {% assign lqip = null %}
-
-          {% if post.image.lqip %}
-            {% capture lqip %}lqip="{{ post.image.lqip }}"{% endcapture %}
-          {% endif %}
-
-          <div class="col-md-5">
-            <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
-          </div>
-
-          {% assign card_body_col = '7' %}
-        {% endif %}
-
-        <div class="col-md-{{ card_body_col }}">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">{{ post.title }}</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>{% include post-description.html %}</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                {% include datetime.html date=post.date lang=lang %}
-
-                <!-- categories -->
-                {% if post.categories.size > 0 %}
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    {% for category in post.categories %}
-                      {{ category }}
-                      {%- unless forloop.last -%},{%- endunless -%}
-                    {% endfor %}
-                  </span>
-                {% endif %}
-              </div>
-
-              {% if post.pin %}
-                <div class="pin ms-1">
-                  <i class="fas fa-thumbtack fa-fw"></i>
-                  <span>{{ site.data.locales[lang].post.pin_prompt }}</span>
-                </div>
-              {% endif %}
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  {% endfor %}
+          <li>
+            <span>Mantenimiento de Software: </span>Mantiene productos de software heredados en diferentes dominios de
+            aplicación, optimizando los recursos humanos, materiales, económicos y de tiempo, y atendiendo las
+            necesidades de la organización.
+          </li>
+          <li>
+            <span>Administración de los Procesos de Software: </span>Administra los procesos de desarrollo,
+            mantenimiento, calidad y configuración del software, mediante un enfoque sistemático, disciplinado y
+            cuantificable, optimizando los recursos humanos, materiales, económicos y de tiempo, con apego a la ética
+            profesional.
+          </li>
+          <li>
+            <span>Innovación en Ingeniería de Software: </span>Elabora propuestas de mejora en el desarrollo,
+            mantenimiento y administración de los procesos de software, mediante fundamentos matemáticos, ingenieriles,
+            de las ciencias computacionales y los propios de la Ingeniería de Software.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
-<!-- #post-list -->
-
-{% if paginator.total_pages > 1 %}
-  {% include post-paginator.html %}
-{% endif %}

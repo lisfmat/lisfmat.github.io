@@ -1,0 +1,29 @@
+.objetivo,
+.areas {
+  margin-bottom: 40px;
+}
+.areas ul {
+  padding-left: 20px;
+}
+.areas ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.areas ul li span {
+  font-weight: bold;
+}
+.areas br {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.areas,
+.objetivo {
+  text-align: justify;
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+.objetivo {
+  border-bottom: 2px solid #afb0b1;
+}
