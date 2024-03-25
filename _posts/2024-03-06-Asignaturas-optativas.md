@@ -2,7 +2,7 @@
 title: Asignaturas optativas
 date: 2024-03-06 07:00:00 +/-0000
 # categories: [Requisitos de egreso]
-tags: [generales]     # TAG names should always be lowercase
+tags: [generales, asignaturas]     # TAG names should always be lowercase
 author: <1>
 ---
 

@@ -2,7 +2,7 @@
 title: Tipos de Asignaturas
 date: 2024-03-06 07:00:00 +/-0000
 # categories: [asignaturas]
-tags: [generales]     # TAG names should always be lowercase
+tags: [generales, asignaturas]     # TAG names should always be lowercase
 ---
 
 # Tipos de Asignaturas
