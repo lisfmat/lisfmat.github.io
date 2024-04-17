@@ -7,7 +7,7 @@ order: 1
 
 ## Características del plan de estudios
 
-El plan de estudios se encuentra organizado en tres tipos de actividades curriculares: Asignaturas (obligatorias, optativos y libres), Servicio Social y Prácticas Profesionales. 
+El plan de estudios se encuentra organizado en tres tipos de actividades curriculares: Asignaturas (obligatorias, optativos y libres), Servicio Social y Prácticas Profesionales.
 
 - **Asignaturas obligatorias**: Aquellas indispensables para el logro de las competencias genéricas, disciplinares y específicas. El plan de estudios se encuentra integrado por 38 asignaturas obligatorias.
 
@@ -17,7 +17,15 @@ El plan de estudios se encuentra organizado en tres tipos de actividades curricu
 
 La unidad de medida para cada una de las actividades curriculares es el crédito. Los créditos de que consta el plan de estudios en su conjunto se encuentran distribuidos de la siguiente manera:
 
-![Características](/assets/img/estructura.png)
+| Actividades              | Créditos | Horas |
+| ------------------------ | -------- | ----- |
+| Asignaturas Obligatorias | 268      | 4288  |
+| Servicio Social          | 12       | 480   |
+| Prácticas Profesionales  | 8        | 320   |
+| Asignaturas Optativas    | 54       | 864   |
+| Asignaturas Libres       | 18       | 288   |
+| Total                    | 360      | 6240  |
+{: .tablaactividades}
 
 <!-- - Asignaturas Obligatorias
 - Asignaturas Optativas
@@ -27,14 +35,14 @@ La unidad de medida para cada una de las actividades curriculares es el crédito
 - Servicio Social
 - Acreditación del nivel de Inglés mínimo (B1) -->
 
------------------------------------------------
+---
 
 ## Malla curricular
 
 ![Malla curricular](/assets/img/malla.png)
 
 > Recuerda que la malla curricular es una recomendación sobre cómo cursar tus asignaturas durante tu estancia en LIS.
-{: .prompt-tip }
+> {: .prompt-tip }
 
 Las asignaturas se clasifican en:
 
@@ -51,34 +59,35 @@ Las asignaturas se clasifican en:
 
 [Visitar el sitio para obtener el catálogo de asignaturas libres e información](https://asignaturas.uady.mx)
 
------------------------------------------------
+---
 
 ## Número de oportunidades para acreditar una asignatura
 
-Para acreditar una asignatura el estudiante tendrá cuatro oportunidades: 
+Para acreditar una asignatura el estudiante tendrá cuatro oportunidades:
 
-- dos oportunidades cursándola de  manera regular y
+- dos oportunidades cursándola de manera regular y
 - dos oportunidades con el acompañamiento de un profesor.
 
 > Notas:
-> 
+>
 > - La primera oportunidad la cursará de manera regular.
 >
 > - Si no se acredita la asignatura, el estudiante:
+>
 >   - elige de qué manera desea acreditarla (volviendo a cursarla en regular o en acompañamiento)
 >   - elige el orden en que irán utilizando sus tres oportunidades restantes hasta agotarlas: regular–acompañamiento–acompañamiento, acompañamiento–regular–acompañamiento o acompañamiento–acompañamiento–regular
 >
 > - Para poder cursar la asignatura en acompañamiento, se requiere que de forma regular, el estudiante haya obtenido al menos 50 de calificación.
-> - Los estudiantes que no acrediten la asignatura en estas cuatro oportunidades serán dados de baja del Programa Educativo. 
-{: .prompt-tip }
+> - Los estudiantes que no acrediten la asignatura en estas cuatro oportunidades serán dados de baja del Programa Educativo.
+>   {: .prompt-tip }
 
------------------------------------------------
+---
 
 ## Calendario escolar
 
 Para su operación, el programa educativo se apegará al calendario escolar aprobado por el H. Consejo Universitario; éste inicia en agosto de cada año y finaliza en julio del siguiente, y se encuentra integrado por tres periodos escolares.
 
-- Dos periodos lectivos de 16 semanas, o bien 80 días hábiles, con una variación de tres días más o tres días menos, denominados “semestres”. Un periodo abarcará los meses de agosto a diciembre de cada año y el otro de enero a mayo del siguiente. 
+- Dos periodos lectivos de 16 semanas, o bien 80 días hábiles, con una variación de tres días más o tres días menos, denominados “semestres”. Un periodo abarcará los meses de agosto a diciembre de cada año y el otro de enero a mayo del siguiente.
 
 - Un periodo lectivo de seis semanas, o bien 30 días hábiles, con una variación de dos días más o dos días menos, denominado “periodo intensivo de verano” el cual iniciará a finales de mayo o principios de junio y concluirá a mediados de julio.
 

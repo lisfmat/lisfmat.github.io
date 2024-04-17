@@ -1,0 +1,33 @@
+.tablaactividades {
+  width: max-content;
+  thead tr {
+    background-color: #0f243e;
+    // border-bottom: 0;
+    color: #fff;
+    th {
+      text-align: center;
+      &:first-of-type {
+        text-align: left;
+      }
+      border-right: 1px solid #fff;
+      &:last-of-type {
+        border-right: 0;
+      }
+    }
+  }
+  tbody tr {
+    background-color: #ac8300;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    td {
+      text-align: center;
+      &:first-of-type {
+        text-align: left;
+      }
+      border-right: 1px solid #fff;
+      &:last-of-type {
+        border-right: 0;
+      }
+    }
+  }
+}
