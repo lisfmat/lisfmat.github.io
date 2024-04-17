@@ -1,12 +1,12 @@
 ---
 title: Trámite de prácticas
 date: 2024-03-06 07:00:00 +/-0000
-# categories: [Trámites]
+categories: [Trámites]
 tags: [trámites, prácticas]     # TAG names should always be lowercase
 author: <1>
 ---
 
-# Cómo puedo realizar mis prácticas profesionales?
+# ¿Cómo puedo realizar mis prácticas profesionales?
 
 Una de las actividades principales que, como estudiante de la Licenciatura en Ingeniería de Software (LIS), se debe cumplir como parte de los requisitos de egreso es la realización de las Prácticas Profesionales (PP).
 

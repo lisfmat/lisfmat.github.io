@@ -1,0 +1,30 @@
+.formulario-contacto {
+  .campo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  #nombre,
+  #correo,
+  #mensaje {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    // max-width: 400px;
+  }
+  #mensaje {
+    width: 100%;
+    max-width: none;
+    resize: none;
+  }
+
+  .enviar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  input[type='submit'] {
+    padding: 2px 10px;
+  }
+}

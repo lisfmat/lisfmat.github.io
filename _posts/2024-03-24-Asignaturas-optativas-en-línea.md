@@ -1,7 +1,7 @@
 ---
 title: Asignaturas optativas en línea
 date: 2024-03-24 07:00:00 +/-0000
-# categories: [Trámites]
+categories: [Generales]
 tags: [generales, asignaturas]     # TAG names should always be lowercase
 author: <1>
 ---

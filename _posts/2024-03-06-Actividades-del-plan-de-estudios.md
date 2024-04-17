@@ -1,7 +1,7 @@
 ---
 title: Titulación
 date: 2024-03-06 07:00:00 +/-0000
-# categories: [Requisitos de Titulación]
+categories: [Trámites]
 tags: [generales, titulación]     # TAG names should always be lowercase
 ---
 

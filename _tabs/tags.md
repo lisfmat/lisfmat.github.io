@@ -1,5 +1,6 @@
 ---
-layout: tags
-icon: fas fa-tags
+layout: busqueda
+title: Búsqueda
+icon: fas fa-search
 order: 2
 ---

@@ -1,5 +1,6 @@
 ---
 # the default layout is 'page'
+layout: contacto
 title: Contacto
 icon: fas fa-info-circle
 order: 4
