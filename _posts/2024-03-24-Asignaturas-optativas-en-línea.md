@@ -1,12 +1,12 @@
 ---
-title: Asignaturas optativas en línea
+title: Cursos optativos en línea
 date: 2024-03-24 07:00:00 +/-0000
 categories: [Generales]
-tags: [generales, asignaturas]     # TAG names should always be lowercase
+tags: [generales, asignaturas, cursos optativos]     # TAG names should always be lowercase
 author: <1>
 ---
 
-# Cursos en línea para asignaturas optativas (Enero - Mayo 2024)
+# Cursos en línea: asignaturas optativas (Enero - Mayo 2024)
 
 Hasta el 23 de mayo, la Coordinación de LIS oferta tres cursos en línea que pueden ser acreditados como asignaturas optativas.
 
