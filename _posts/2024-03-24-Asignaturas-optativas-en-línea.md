@@ -41,4 +41,6 @@ Las combinaciones posibles (y los créditos que se obtendrán tras una satisfact
 
 - En caso de cursar dos cursos, cuya suma es 60 horas, el número de créditos reconocidos serán 4.
 - En caso de cursar dos cursos, cuya suma es 70 horas, el número de créditos reconocidos serán 5.
-- En caso de cursar los tres cursos, cuya suma es 100 horas, el número de créditos reconocidos serán 7. {: .prompt-tip }
+- En caso de cursar los tres cursos, cuya suma es 100 horas, el número de créditos reconocidos serán 7.
+
+{: .prompt-tip }
