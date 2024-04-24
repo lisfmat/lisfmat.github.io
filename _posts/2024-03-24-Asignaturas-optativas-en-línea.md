@@ -1,12 +1,12 @@
 ---
 title: Cursos optativos en línea con reconocimiento de créditos
-date: 2024-03-24 07:00:00 +/-0000
+date: 2024-04-24 17:45:00 +/-0000
 categories: [Generales]
 tags: [generales, asignaturas, cursos optativos]     # TAG names should always be lowercase
 author: <1>
 ---
 
-# Cursos período Enero - Mayo 2024
+# Período: Enero - Mayo 2024
 
 La Coordinación de LIS oferta los siguientes cursos en línea que pueden tener reconocimiento de créditos como asignaturas optativas.
 
@@ -33,10 +33,10 @@ This course is the second in the two-course Python Essentials series and is desi
 
 ---
 
-> Para el reconocimiento de los créditos se deben cursar al menos 2 cursos (**y aprobar cada curso con al menos 70%**).
-{: .prompt-tip }
+> Para el reconocimiento de los créditos se deben cursar al menos 2 cursos (**y aprobar cada curso con al menos 70%**). {: .prompt-tip }
 
-Las combinaciones posibles (y los créditos que se obtendrán tras una satisfactoria aprobación) son los siguientes:
+
+Las combinaciones posibles (y los créditos que se obtendrán tras una satisfactoria aprobación) son los siguientes: {: .prompt-tip }
 
 - En caso de cursar dos cursos, cuya suma es 60 horas, el número de créditos reconocidos serán 4.
 - En caso de cursar dos cursos, cuya suma es 70 horas, el número de créditos reconocidos serán 5.
