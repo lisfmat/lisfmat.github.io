@@ -36,10 +36,10 @@ This course is the second in the two-course Python Essentials series and is desi
 > Para el reconocimiento de los créditos se deben cursar al menos 2 cursos (**y aprobar cada curso con al menos 70%**). {: .prompt-tip }
 
 
-Las combinaciones posibles (y los créditos que se obtendrán tras una satisfactoria aprobación) son los siguientes: {: .prompt-info }
+> Las combinaciones posibles (y los créditos que se obtendrán tras una satisfactoria aprobación) son los siguientes: 
 
 - En caso de cursar dos cursos, cuya suma es 60 horas, el número de créditos reconocidos serán 4.
 - En caso de cursar dos cursos, cuya suma es 70 horas, el número de créditos reconocidos serán 5.
 - En caso de cursar los tres cursos, cuya suma es 100 horas, el número de créditos reconocidos serán 7.
-{: .prompt-tip }
+{: .prompt-info }
 
