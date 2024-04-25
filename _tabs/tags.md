@@ -1,6 +1,6 @@
 ---
 layout: busqueda
-title: Búsqueda
+title: 
 icon: fas fa-search
 order: 2
 ---
