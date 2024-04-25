@@ -2,7 +2,7 @@
 title: Trámite del Servicio Social
 date: 2024-03-06 07:00:00 +/-0000
 categories: [Trámites]
-tags: [trámites, ss, egreso]     # TAG names should always be lowercase
+tags: [trámites, servicio social, egreso]     # TAG names should always be lowercase
 author: <1>
 ---
 
