@@ -1,8 +1,8 @@
 ---
 title: Requisitos de Permanencia
 date: 2024-03-06 07:00:00 +/-0000
-categories: [Generales, Permanencia]
-tags: [generales]     # TAG names should always be lowercase
+categories: [Generales]
+tags: [generales, permanencia]     # TAG names should always be lowercase
 ---
 
 # Permanencia del plan de estudios
