@@ -33,7 +33,8 @@ This course is the second in the two-course Python Essentials series and is desi
 
 ---
 
-> Para el reconocimiento de los créditos se deben cursar al menos 2 cursos (**y aprobar cada curso con al menos 70%**). {: .prompt-tip }
+> Para el reconocimiento de los créditos se deben cursar al menos 2 cursos (**y aprobar cada curso con al menos 70%**).
+{: .prompt-tip }
 
 Las combinaciones posibles (y los créditos que se obtendrán tras una satisfactoria aprobación) son los siguientes:
 
