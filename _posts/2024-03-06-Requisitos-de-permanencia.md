@@ -5,7 +5,7 @@ categories: [Generales]
 tags: [generales, permanencia]     # TAG names should always be lowercase
 ---
 
-# Permanencia del plan de estudios
+## Permanencia del plan de estudios
 
 
 > Para tener inscripción vigente en un período escolar, el alumno deberá inscribir cuando menos una asignatura del plan de estudios.
