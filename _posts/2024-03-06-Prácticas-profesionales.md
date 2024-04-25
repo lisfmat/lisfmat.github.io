@@ -2,7 +2,7 @@
 title: Prácticas Profesionales
 date: 2024-03-06 07:00:00 +/-0000
 categories: [Trámites]
-tags: [trámites, prácticas]     # TAG names should always be lowercase
+tags: [trámites, prácticas profesionales]     # TAG names should always be lowercase
 author: <1>
 ---
 
