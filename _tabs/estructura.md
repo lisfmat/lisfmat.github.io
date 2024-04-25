@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Estructura
+title: Estructura del Plan de Estudios
 icon: fas fa-stream
 order: 1
 ---
