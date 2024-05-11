@@ -10,30 +10,51 @@ layout: default
     <h1 class="dynamic-title">
       {{ title }}
     </h1>
-    <div class="content formulario">
-      <h2>M. en C. Luis Basto Díaz</h2>
-      <p>Coodinador Licenciatura en Ingeniería de Software</p>
-
-      <form action="mailto:luis.basto@correo.uady.mx" method="post" enctype="text/plain" class="formulario-contacto">
-        <div class="campo">
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" required>
-        </div>
-        <div class="campo">
-          <label for="correo">Correo electrónico:</label>
-          <input type="email" id="correo" name="correo" required>
-        </div>
-        <div class="campo">
-          <label for="mensaje">Mensaje:</label><br>
-          <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+    <div class="content formulario-contacto">
+      <div class="contacto_perfil">
+        <div class="contenedor-imagen">
+          <img src="https://avatars.githubusercontent.com/u/83410794?v=4" alt="foto de perfil">
         </div>
 
-        <div class="enviar">
-          <input type="submit" value="Enviar">
+        <h2>M. en C. Luis Basto Díaz</h2>
+      </div>
+      <div class="contacto_links">
+        <div class="link_campo" id="link_coordinacion">
+          <span>LIS.fmat@correo.uady.mx</span>
+          <i class="fa-regular fa-copy"></i>
         </div>
-      </form>
+        <div class="link_campo" id="link_institucional">
+          <span>luis.basto@correo.uady.mx</span>
+          <i class="fa-regular fa-copy"></i>
+        </div>
+      </div>
     </div>
   {% else %}
     {{ content }}
   {% endif %}
 </article>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('.link_campo');
+
+    links.forEach(function (link) {
+      link.addEventListener('click', function () {
+        const texto = this.querySelector('span').textContent;
+        navigator.clipboard.writeText(texto).then(function () {
+          const notificacion = document.createElement('div');
+          notificacion.textContent = 'Copiado al portapapeles';
+          notificacion.classList.add('notificacion');
+          const notificacionPadre = document.createElement('div');
+          notificacionPadre.classList.add('notificacion_padre');
+          notificacionPadre.appendChild(notificacion);
+          link.parentNode.appendChild(notificacionPadre);
+
+          setTimeout(function () {
+            notificacion.remove();
+          }, 2000);
+        });
+      });
+    });
+  });
+</script>
