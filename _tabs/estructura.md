@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Estructura
+title: Estructura del Plan de Estudios
 icon: fas fa-stream
 order: 1
 ---
@@ -57,7 +57,7 @@ Las asignaturas se clasifican en:
   - En total tendrán un valor al menos de 18 créditos en el plan de estudios,
   - Podrán ser cursadas a partir del ingreso del estudiante y su valor en créditos se determina en cada programa de estudios.
 
-[Visitar el sitio para obtener el catálogo de asignaturas libres e información](https://asignaturas.uady.mx)
+[Consulta el catálogo de asignaturas libres](https://asignaturas.uady.mx)
 
 ---
 
