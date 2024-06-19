@@ -15,6 +15,7 @@ Para su operación, el programa educativo se apegará al calendario escolar apro
 - Un periodo lectivo de 6 semanas, o bien 30 días hábiles, con una variación de dos días más o dos días menos, denominado “periodo intensivo de verano”
   - Período intensivo de verano inicia aproximadamente a finales de mayo o principios de junio y concluye a mediados de julio.
 
-Para consultar el calendario de la FMAT en cada período lectivo, visita: [Calendario FMAT](https://www.matematicas.uady.mx/), menú lateral, opción: "Control Escolar>Calendarios"
+Para consultar el calendario de la FMAT en cada período lectivo, visita: [Calendario FMAT](https://www.matematicas.uady.mx/), menú lateral, opción: "Control Escolar>Calendarios" </br>
+
 
 Para consultar el calendario UADY, lo puedes hacer en la siguiente URL: [Calendario UADY](https://uady.mx/calendario)
