@@ -24,7 +24,5 @@ Se podrán realizar en las diferentes dependencias de la UADY o en cualquier otr
 
 #Talleres de Prácticas Profesionales
 
-Para aprobar la asignatura Prácticas Profesionales se deben cursar 2 de los 3 talleres que se ofertan durante el semestre.
-
-> Durante el año académico se publican oportunidades para la realización de las Prácticas Profesionales en la platafaorma Micrsoft Teams de la Coordinación: [Haz click aquí para unirte](https://teams.microsoft.com/l/team/19%3A_QL9KwE1AIck1JgNmPBdgk6Qz2-vXNBKZo1zF9blH501%40thread.tacv2/conversations?groupId=11121a57-06a6-4f2d-98f5-7fcb8a436375&tenantId=2b83ac9e-2448-45df-9319-48d86236a5ea)
+Para aprobar la asignatura Prácticas Profesionales se deben cursar 2 de los 3 talleres que se ofertan en los períodos enero-mayo y agosto-diciembre.
 {: .prompt-tip }
