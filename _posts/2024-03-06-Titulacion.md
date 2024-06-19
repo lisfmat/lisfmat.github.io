@@ -22,5 +22,7 @@ El examen general de egreso de licenciatura es una prueba de cobertura nacional 
 Una vez cumplidas las condiciones de pasantía establecidas en el plan de estudios correspondiente y contar con un documento oficial expedida por la instancia evaluadora que acredite haber obtenido desempeño satisfactorio por lo menos en 50% de las áreas que conforman el Examen General de Egreso de Licenciatura. 
 
 El pasante solicitará a la Secretaría Académica la autorización para titularse en cualquiera de las dos modalidades al registrar su solicitud en línea en: 
-[(Solicitud de Titulación [MEFI])](https://forms.gle/4VYK1Yt598wdRfS88) {: .prompt-tip }
+[(Solicitud de Titulación [MEFI])](https://forms.gle/4VYK1Yt598wdRfS88) 
+
+{: .prompt-tip }
 ----------------------------
