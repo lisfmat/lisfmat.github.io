@@ -20,6 +20,5 @@ EGEL (EGEL-ISOFT)
 
 El examen general de egreso de licenciatura es una prueba de cobertura nacional que evalúa el nivel de conocimientos y habilidades académicas de los recién egresados de licenciatura. La prueba la administra una instancia evaluadora externa con reconocimiento nacional.
 Una vez cumplidas las condiciones de pasantía establecidas en el plan de estudios correspondiente y contar con un documento oficial expedida por la instancia evaluadora que acredite haber obtenido desempeño satisfactorio por lo menos en 50% de las áreas que conforman el Examen General de Egreso de Licenciatura, el pasante solicitará a la Secretaría Académica la autorización para titularse en esta modalidad al registrar su solicitud en línea en:
-
 {: .prompt-tip }
 ----------------------------
