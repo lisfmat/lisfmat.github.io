@@ -84,13 +84,3 @@ Para acreditar una asignatura el estudiante tendrá cuatro oportunidades:
 >   {: .prompt-tip }
 
 ---
-
-## Calendario escolar
-
-Para su operación, el programa educativo se apegará al calendario escolar aprobado por el H. Consejo Universitario; éste inicia en agosto de cada año y finaliza en julio del siguiente, y se encuentra integrado por tres periodos escolares.
-
-- Dos periodos lectivos de 16 semanas, o bien 80 días hábiles, con una variación de tres días más o tres días menos, denominados “semestres”. Un periodo abarcará los meses de agosto a diciembre de cada año y el otro de enero a mayo del siguiente.
-
-- Un periodo lectivo de seis semanas, o bien 30 días hábiles, con una variación de dos días más o dos días menos, denominado “periodo intensivo de verano” el cual iniciará a finales de mayo o principios de junio y concluirá a mediados de julio.
-
-[Consulta el calendario UADY](https://uady.mx/calendario)
