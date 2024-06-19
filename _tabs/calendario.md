@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Calendaio
+title: Calendario
 icon: fas fa-stream
 order: 2
 ---
