@@ -6,39 +6,24 @@ tags: [generales, asignaturas, cursos optativos]     # TAG names should always b
 author: <1>
 ---
 
-# Convocatoria Licenciatura agosto 2023 UADY - Coursera for  campus
+En la plataforma de Coursera se podrá tomar cursos relacionados con el perfil de egreso del programa educativo que se esté cursando, así como con temáticas de
+tendencia internacional como los objetivos de desarrollo sostenible (ODS), cultura de paz, adopción tecnológica y transformación digital, liderazgo y trabajo en equipo, cultura empresarial, espíritu emprendedor, entre muchas otras. </br>
 
 
-La Coordinación de LIS oferta los siguientes cursos en línea que pueden tener reconocimiento de créditos como asignaturas optativas.
+# Convocatoria UADY - Coursera for  campus
 
----
-## [Data Analytics Essentials](https://skillsforall.com/course/data-analytics-essentials?courseLang=en-US&instance_id=8968e355-7906-4a65-9fcb-6c6736db52b6)
-This data analytics essentials course teaches you the fundamental tools of a data analyst. You will learn to transform, organize, and visualize data with spreadsheet tools such as Excel. You will also learn how to query data from a relational database using SQL and how to improve your data presentations using powerful business intelligence tools like Tableau. By the end of the course, you will have an analytics portfolio complete with an analysis of the popular movies dataset, showcasing your skills in Excel, SQL and Tableau.
-- **Modalidad:** Propio ritmo
-- **Duración:** 30 horas
-- **Créditos:** 2 Créditos
+La convocatria se lanza aproximadamente cada...en donde se indican los características, lineamientos, requisitos, etc. Los alumnos solicitan acceso y el comité dictaminador de la Dirección General de Desarrollo Académico de la UADY revisará las solicitudes para emitir los resultados, los cuales se publicarán a través de los diferentes medios oficiales de la Universidad como son la página web, las redes sociales y el correo electrónico.
 
----
-## [Python Essentials 1](https://skillsforall.com/course/python-essentials-1?courseLang=en-US&instance_id=aaa466ea-329a-4d27-8f70-c3ea098d63c4)
-Python offers you endless possibilities for creating small and large-scale software projects. User-friendly with easy-to-read code, Python is a great first programming language to learn and requires no prior programming knowledge. Python skills open you up to careers in almost any industry and are required if you want to continue to more advanced, higher paying software development and engineering roles such as software engineer, systems administrator, and security engineer.
-- **Modalidad:** Propio ritmo
-- **Duración:** 30 horas
-- **Créditos:** 2 Créditos
+Los criterios para la selección de participantes serán:
+- mayor porcentaje de avance en créditos en el plan de estudios
+- menor número de asignaturas no acreditadas
 
----
-## [Python Essentials 2](https://skillsforall.com/course/python-essentials-2?courseLang=en-US&instance_id=f5d1ad7c-da3d-4985-80a6-38a55529a71d)
-This course is the second in the two-course Python Essentials series and is designed for learners already familiar with the basics of Python. Dive into advanced Python concepts, learn Object-Oriented Programming (OOP), and develop your own programming portfolio.
-- **Modalidad:** Propio ritmo
-- **Duración:** 40 horas
-- **Créditos:** 2 Créditos
+**Consideraciones**
+- Las personas seleccionadas recibirán, por correo electrónico, las indicaciones para ingresar a la plataforma de Coursera durante los primeros quince días del periodo de vigencia de la licencia (establecido la convocatoria). En caso de no ingresar como se indica, el otorgamiento de la licencia será cancelado y reasignado.
+- A las personas seleccionadas se les asignará una licencia para ingresar a la plataforma de Coursera [https://www.coursera.org/](https://www.coursera.org/), la cual tendrá una vigencia de 70 días naturales.
+- Durante el periodo de la licencia, las personas seleccionadas podrán tomar el número de cursos que deseen, los cuales deberán sumar, al menos,
+96 horas.
+- Los cursos acreditados serán considerados como asignaturas optativas o libres, en función del dictamen que realice la persona titular de la Secretaría Académica de la Facultad o de la Coordinación de la Unidad Académica de Educación Virtual (UAEV), para los PE virtuales.
+- Recordar que para reconocimientos de créditos optativos se requiere haber aprobado 180 créditos del Plan de Estudios.
 
----
-
-> Para el reconocimiento de los créditos se deben cursar al menos 2 cursos (**y aprobar cada curso con al menos 70%**).
-{: .prompt-tip }
-
-Las combinaciones posibles (y los créditos que se obtendrán tras una satisfactoria aprobación) son los siguientes:
-
-- Al cursar y aprobar dos cursos cuya suma es de 60 horas, se reconocerán 4 créditos. 
-- Al cursar y aprobar dos cursos cuya suma es de 70 horas, se reconocerán 5 créditos. 
-- Al cursar y aprobar los tres cursos, cuya suma es de 100 horas, se reconocerán 7 créditos. 
+# Convocatoria UADY - Coursera for  campus
