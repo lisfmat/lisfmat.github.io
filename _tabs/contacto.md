@@ -17,13 +17,13 @@ Email institucional: luis.basto@correo.uady.mx </br>
 
 EQUIPO (MS TEAMS) DE LA COORDINACIÓN LIS
 
-- Comunicación más fácil y ágil con el coordinador de la LIS
-- Atención más ágil en las dudas que tengas sobre la LIS
+- Comunicación y atención más ágil con el coordinador de la LIS
 - Notificaciones y avisos sobre:
   - Reinscripciones/carga de asignaturas
   - Procedimiento prácticas profesionales y servicio social
   - Modalidades de titulación: EGEL y/o Tesis
   - Asignaturas libres y optativas
+  - Eventos
 
 INTÉGRATE</BR>
 https://tinyurl.com/coordinacionLIS</BR>
