@@ -2,7 +2,7 @@
 title: Cursos en línea Coursera con/sin reconocimiento de créditos
 date: 2024-04-24 17:45:00 +/-0000
 categories: [Generales]
-tags: [generales, asignaturas, cursos optativos]     # TAG names should always be lowercase
+tags: [generales, asignaturas, cursos optativos, coursera]     # TAG names should always be lowercase
 author: <1>
 ---
 
