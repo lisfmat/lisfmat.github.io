@@ -15,6 +15,17 @@ TESIS
 
 La tesis es el informe de un trabajo de investigación que permite establecer conclusiones que constituyan aportaciones de interés y utilidad para la profesión. Este trabajo se desarrollará de forma individual o grupal, bajo la supervisión de uno o más asesores en el área del conocimiento elegida. El trabajo de investigación se desarrolla durante el proceso de formación (durante sus estudios), siempre y cuando el interesado tenga un avance de al menos el 60% del mínimo de créditos de su plan de estudios. Una vez seleccionado el tema de investigación, se elabora una propuesta de tesis.
 
+El alumno deberá llevar asignaturas optativas orientadas a la tesis, estas asignaturas tienen las siguientes características:
+
+
+| Asignatura | Horas Presenciales | Horas No Presenciales | Créditos |
+|-------|--------|---------|---------|
+| Seminario de Tesis I | 32 | 96  | 8 |
+| Seminario de Tesis II  | 48 | 96 | 9 |
+| Comunicación Científica | 64 | 96 | 10 |
+
+<br>
+
 
 EGEL (EGEL-ISOFT)
 
