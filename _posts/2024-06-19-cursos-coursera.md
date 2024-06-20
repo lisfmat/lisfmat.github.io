@@ -18,7 +18,7 @@ Los criterios para la selección de participantes serán:
 - mayor porcentaje de avance en créditos en el plan de estudios
 - menor número de asignaturas no acreditadas
 
-**Consideraciones**
+**Características**
 - Las personas seleccionadas recibirán, por correo electrónico, las indicaciones para ingresar a la plataforma de Coursera durante los primeros quince días del periodo de vigencia de la licencia (establecido la convocatoria). En caso de no ingresar como se indica, el otorgamiento de la licencia será cancelado y reasignado.
 - A las personas seleccionadas se les asignará una licencia para ingresar a la plataforma de Coursera [https://www.coursera.org/](https://www.coursera.org/), la cual tendrá una vigencia de 70 días naturales.
 - Durante el periodo de la licencia, las personas seleccionadas podrán tomar el número de cursos que deseen, los cuales deberán sumar, al menos,
@@ -26,4 +26,14 @@ Los criterios para la selección de participantes serán:
 - Los cursos acreditados serán considerados como asignaturas optativas o libres, en función del dictamen que realice la persona titular de la Secretaría Académica de la Facultad o de la Coordinación de la Unidad Académica de Educación Virtual (UAEV), para los PE virtuales.
 - Recordar que para reconocimientos de créditos optativos se requiere haber aprobado 180 créditos del Plan de Estudios.
 
-# Convocatoria UADY - Coursera for  campus
+# Convocatoria Certificados profesionales Career Academy
+
+**Características**
+
+- Las personas seleccionadas en esta convocatoria podrán elegir entre los diferentes certificados profesionales que ofrece Career Academy, los cuales pueden consultarse en la siguiente liga: https://asignaturas.uady.mx/asignaturasexternas/certificadoprofesional
+- Los cursos de los certificados profesionales se imparten en idioma inglés y la oferta de los mismos puede variar de acuerdo a lo que determine la plataforma COURSERA.
+- La licencia para acceder a estos certificados tendrá una vigencia de 9 meses, las fechas de inicio y fin están señaladas en cada convocatoria.
+- Durante este periodo los alumnos podrán elegir al menos una certificación profesional la cual deben acreditar antes de finalización de la vigencia de la licencia.
+- Los cursos acreditados serán considerados como asignaturas optativas o libres, en función del dictamen que realice la persona titular de la Secretaría Académica de la Facultad o de la Coordinación de la Unidad Académica de Educación Virtual (UAEV), para los PE virtuales.
+- Recordar que para reconocimientos de créditos optativos se requiere haber aprobado 180 créditos del Plan de Estudios.
+
