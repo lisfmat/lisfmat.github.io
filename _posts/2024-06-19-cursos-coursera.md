@@ -30,7 +30,7 @@ Los criterios para la selección de participantes serán:
 
 **Características**
 
-- Las personas seleccionadas en esta convocatoria podrán elegir entre los diferentes certificados profesionales que ofrece Career Academy, los cuales pueden consultarse en la siguiente liga: https://asignaturas.uady.mx/asignaturasexternas/certificadoprofesional
+- Las personas seleccionadas en esta convocatoria podrán elegir entre los diferentes certificados profesionales que ofrece Career Academy, los cuales pueden consultarse en la siguiente URL: https://asignaturas.uady.mx/asignaturasexternas/certificadoprofesional
 - Los cursos de los certificados profesionales se imparten en idioma inglés y la oferta de los mismos puede variar de acuerdo a lo que determine la plataforma COURSERA.
 - La licencia para acceder a estos certificados tendrá una vigencia de 9 meses, las fechas de inicio y fin están señaladas en cada convocatoria.
 - Durante este periodo los alumnos podrán elegir al menos una certificación profesional la cual deben acreditar antes de finalización de la vigencia de la licencia.
