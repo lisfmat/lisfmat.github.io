@@ -24,5 +24,6 @@ Una vez cumplidas las condiciones de pasantía establecidas en el plan de estudi
 El pasante solicitará a la Secretaría Académica la autorización para titularse en cualquiera de las dos modalidades al registrar su solicitud en línea en: 
 [Solicitud de Titulación [MEFI]](https://forms.gle/4VYK1Yt598wdRfS88){: .prompt-info } </br>
 
-Para más detalles sobre el proceso de Titulación, puedes obtener aquí el [Manual de Titulación](https://www.matematicas.uady.mx/files/control-escolar/2023/03/2023-03-22_manual-y-anexos-titulacion-mefi-2023.zip) {: .prompt-info }
+Para más detalles sobre el proceso de Titulación, puedes obtener aquí el [Manual de Titulación](https://www.matematicas.uady.mx/files/control-escolar/2023/03/2023-03-22_manual-y-anexos-titulacion-mefi-2023.zip) 
+{: .prompt-info }
 ----------------------------
