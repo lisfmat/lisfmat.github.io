@@ -93,3 +93,12 @@ $color_gris: #939496;
   font-size: 14px;
   margin-bottom: 5px;
 }
+
+.contacto_teams {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  p {
+    margin-bottom: 0;
+  }
+}

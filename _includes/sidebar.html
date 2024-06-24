@@ -34,7 +34,7 @@
             <i class="fa-fw {{ tab.icon }}"></i>
             {% capture tab_name %}{{ tab.url | split: '/' | last }}{% endcapture %}
             {% if tab_name == 'tags' %}
-              {% assign tab_title = 'BÚSQUEDA' %}
+              {% assign tab_title = 'FAQS' %}
             {% else %}
               {% assign tab_title = site.data.locales[include.lang].tabs[tab_name] | default: tab.title | upcase %}
             {% endif %}
