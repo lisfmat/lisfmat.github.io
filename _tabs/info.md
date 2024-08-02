@@ -2,5 +2,5 @@
 layout: busqueda
 title: Información
 icon: fa fa-info-circle
-order: 2
+order: 3
 ---
