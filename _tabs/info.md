@@ -1,6 +1,6 @@
 ---
 layout: busqueda
-title: FAQS
+title: Información
 icon: fas fa-search
 order: 2
 ---
