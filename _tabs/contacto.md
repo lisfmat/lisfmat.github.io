@@ -2,7 +2,7 @@
 # the default layout is 'page'
 layout: contacto
 title: Contacto
-icon: fas fa-info-circle
+icon: fa fa-address-card-o
 order: 4
 ---
 
