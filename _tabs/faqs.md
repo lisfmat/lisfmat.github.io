@@ -1,5 +1,5 @@
 ---
-layout: tag
+layout: tags
 title: FAQ
 icon: fa fa-question-circle
 order: 4
