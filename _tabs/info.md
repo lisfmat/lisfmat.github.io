@@ -1,6 +1,6 @@
 ---
 layout: busqueda
 title: Información
-icon: fas fa-search
+icon: fa fa-info-circle
 order: 2
 ---
