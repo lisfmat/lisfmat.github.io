@@ -3,7 +3,7 @@
 layout: contacto
 title: Contacto
 icon: fa fa-user-circle
-order: 4
+order: 6
 ---
 
 Contacto
