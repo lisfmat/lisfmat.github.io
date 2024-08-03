@@ -1,6 +1,6 @@
 ---
 layout: faqs
-title: Preguntas Frecuentes
+title: FAQs
 icon: fa fa-question-circle
 order: 4
 ---
