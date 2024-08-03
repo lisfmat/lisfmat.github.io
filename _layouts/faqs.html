@@ -4,29 +4,19 @@ layout: page
 ---
 {% include lang.html %}
 
-{% assign HEAD_PREFIX = 'h_' %}
-{% assign LIST_PREFIX = 'l_' %}
-
-{% assign group_index = 0 %}
-
-{% assign sort_categories = site.categories | sort %}
-
-{% for category in sort_categories %}
-  {% assign category_name = category | first %}
-  {% assign posts_of_category = category | last %}
-
+# Categoria Asignaturas 
   <div class="card categories">
     <div class="card-header">
-      <h2>{{ category_name }}</h2>
+      <h2>Asignaturas</h2>
     </div>
 
     <div class="card-body">
       <ul>
-        {% for post in posts_of_category %}
           <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            ¿Cuál es la diferencia entre una asignatura regular y una asignatura por acompañamiento? <br>
+            R: La asignatura de manera regular es cuando estudias una asignatura por completo.<br>
+            La asignatura por acompañamiento prevalece el estudio independiente del alumno con la asesoría del profesor.
           </li>
-        {% endfor %}
       </ul>
     </div>
   </div>
