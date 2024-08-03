@@ -31,35 +31,3 @@ layout: page
     </div>
   </div>
 
-  {% assign sub_categories = '' | split: '' %}
-  {% for post in posts_of_category %}
-    {% assign second_category = post.categories[1] %}
-    {% if second_category %}
-      {% unless sub_categories contains second_category %}
-        {% assign sub_categories = sub_categories | push: second_category %}
-      {% endunless %}
-    {% endif %}
-  {% endfor %}
-
-  {% assign sub_categories = sub_categories | sort %}
-  {% assign sub_categories_size = sub_categories | size %}
-
-  <!-- Sub-categorías -->
-  {% if sub_categories_size > 0 %}
-    <div class="card subcategories">
-      <div class="card-header">
-        <h3>Subcategorías</h3>
-      </div>
-
-      <div class="card-body">
-        <ul>
-          {% for sub_category in sub_categories %}
-            <li>
-              <a href="/categories/{{ sub_category | slugify }}">{{ sub_category }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  {% endif %}
-{% endfor %}
