@@ -1,100 +1,72 @@
 ---
 layout: page
-tags: [asignaturas, profesionales] 
-# All the Categories of posts
+
 ---
 {% include lang.html %}
 
-  <div class="card categories">
-    <div class="card-header">
-      <h2>Asignaturas</h2>
+{% assign HEAD_PREFIX = 'h_' %}
+{% assign LIST_PREFIX = 'l_' %}
+
+{% assign group_index = 0 %}
+
+{% assign sort_categories = site.categories | sort %}
+
+{% for category in sort_categories %}
+  {% assign category_name = category | first %}
+
+  {% comment %} VALIDAR SI LA CATEGORIA ES FAQS {% endcomment %}
+  {% if category_name == 'FAQS' %}
+    {% assign posts_of_category = category | last %}
+
+    <div class="card categories">
+      {% comment %}
+        <div class="card-header">
+          <h2>{{ category_name }}</h2>
+        </div>
+        SI SE QUIERE VER EL CARD HEADER DESCOMENTAR ESTE CODIGO
+      {% endcomment %}
+
+      <div class="card-body">
+        <ul>
+          {% for post in posts_of_category %}
+            <li>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
 
-    <div class="card-body">
-      <ul>
-          <li>
-            <strong>¿Cuál es la diferencia entre una asignatura regular y una asignatura por acompañamiento?</strong> <br>
-            R: La asignatura de manera regular es cuando estudias una asignatura por completo.<br>
-            La asignatura por acompañamiento prevalece el estudio independiente del alumno con la asesoría del profesor.
-          </li>
-          <li>
-            <strong>¿Cuántas oportunidades tengo para aprobar una asignatura? </strong><br>
-            R: Se tienen 4 oportunidades para acreditar una asignatura, dos de manera regular y dos por acompañamiento: la primera de manera regular y las siguientes tres podrán ser de manera regular o por acompañamiento. <br>
-          </li>
-          <li>
-            <strong>¿Qué pasa si agoto las 4 oportunidades y no apruebo una asignatura?</strong> <br>
-            R: Si no se acredita la asignatura en ese número de oportunidades el estudiante será dado de baja del Programa de Estudio.<br>
-          </li>
-          <li>
-            <strong>¿Cuál es la diferencia entre asignaturas libres y asignaturas optativas?</strong> <br>
-            R: Las asignaturas libres complementan tu formación integral, son asignaturas de áreas de conocimiento distintas al Plan de Estudios.<br>
-            Las asignaturas optativas complementan tu formación como Ingeniero(a) de Software, son asignaturas de especialización en alguna de las áreas de concentración del Plan de Estudios.<br>            
-          </li>
-          <li>
-            <strong>¿Qué pasa si agoto las 4 oportunidades y no apruebo una asignatura?</strong> <br>
-            R: Si no se acredita la asignatura en ese número de oportunidades el estudiante será dado de baja del Programa de Estudio.<br>
-          </li>
-      </ul>
-    </div>
-  </div>
+    {% assign sub_categories = '' | split: '' %}
+    {% for post in posts_of_category %}
+      {% assign second_category = post.categories[1] %}
+      {% if second_category %}
+        {% unless sub_categories contains second_category %}
+          {% assign sub_categories = sub_categories | push: second_category %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
 
-<div class="card categories">
-    <div class="card-header">
-      <h2>Becas</h2>
-    </div>
-    <div class="card-body">
-      <ul>
-          <li>
-            <strong>¿Dónde puedo ver en qué semestre equivalente me encuentro y el número de créditos aprobados?</strong> <br>
-            R: En el Sistema de Información y Control Escolar Institucional (SICEI), ingresa con tu usuario y contraseña y podrás observar toda la información de tu kardex.
-          </li>
-          <li>
-            <strong>¿Existen becas estudiantiles en la Facultad?</strong><br>
-            R: En la UADY se tiene el Programa Institucional de Becas que apoya a los estudiantes de nivel licenciatura inscritos en las Facultades de la Universidad Autónoma de Yucatán a través de: 
-              <ul>
-                <li>Becas de Inscripción UADY</li>
-                <li>Becas “Abogado Francisco Repetto Milán”. </li> 
-              </ul>
-            <br>
-          </li>
-          <li>
-            <strong>¿Cuál es el procedimiento para obtener alguna beca del Programa Institucional de Becas de la UADY?</strong> <br>
-            R: La Convocatoria del Programa Institucional de Becas se publica entre el mes de mayo y septiembre de cada año; en ellas se encuentra el procedimiento para solicitar una beca. El alumno interesado debe verificar si cumple con los requisitos establecidos en dichas convocatorias antes de solicitar una beca. Para más información puedes visitar la siguiente URL: <a href="https://uady.mx/estudiantes/becas"> https://uady.mx/estudiantes/becas </a>.<br>
-          </li>
-          <li>
-            <strong>¿Cuál es la diferencia entre asignaturas libres y asignaturas optativas?</strong> <br>
-            R: Las asignaturas libres complementan tu formación integral, son asignaturas de áreas de conocimiento distintas al Plan de Estudios.<br>
-            Las asignaturas optativas complementan tu formación como Ingeniero(a) de Software, son asignaturas de especialización en alguna de las áreas de concentración del Plan de Estudios.<br>            
-          </li>
-          <li>
-            <strong>¿Qué pasa si agoto las 4 oportunidades y no apruebo una asignatura?</strong> <br>
-            R: Si no se acredita la asignatura en ese número de oportunidades el estudiante será dado de baja del Programa de Estudio.<br>
-          </li>
-      </ul>
-    </div>
-  </div>
+    {% assign sub_categories = sub_categories | sort %}
+    {% assign sub_categories_size = sub_categories | size %}
 
-<div class="card categories">
-    <div class="card-header">
-      <h2>Cursos en plataformas online</h2>
-    </div>
-    <div class="card-body">
-      <ul>
-        <li>
-            <strong>¿Puedo cursar cualquier curso en cualquier plataforma online?</strong> <br>
-            R: Primero deberás notificar al coordinador para que sea aprobado. Ten en cuenta que sea una plataforma 
-            que otorgue certificaciones o constancias, indicando el nombre completo del participante, el número de horas en el curso y la calificación obtenida.
-          </li>
-          <li>
-            <strong>¿Puedo cursar cualquier curso en Coursera?</strong> <br>
-            R: Sí, solo recuerda que algunos cursos son de tipo Libre, ya que complementan tu formación integral y otros cursos son de especialidad 
-            en tu perfil como Ingeniero(a) de Software, por lo que, se te asignarán créditos dependiendo del tipo de curso que 
-            lleves. Además, no deberás llevar cursos que están señalados como obligatorios en el plan de estudios.
-          </li>
-          <li>
-            <strong>¿Cuántos créditos se me otorga por los cursos en Coursera u otra plataforma online?</strong><br>
-            R: Los créditos dependen del número de horas del curso, recuerda que 16 horas equivalen a 1 crédito. 
-          </li>
-      </ul>
-    </div>
-  </div>
+    <!-- Sub-categorías -->
+    {% if sub_categories_size > 0 %}
+      <div class="card subcategories">
+        <div class="card-header">
+          <h3>Subcategorías</h3>
+        </div>
+
+        <div class="card-body">
+          <ul>
+            {% for sub_category in sub_categories %}
+              <li>
+                <a href="/categories/{{ sub_category | slugify }}">{{ sub_category }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    {% endif %}
+  {% endif %}
+{% endfor %}

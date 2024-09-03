@@ -1,6 +1,5 @@
 ---
 layout: page
-# All the Categories of posts
 ---
 {% include lang.html %}
 
@@ -13,53 +12,57 @@ layout: page
 
 {% for category in sort_categories %}
   {% assign category_name = category | first %}
-  {% assign posts_of_category = category | last %}
 
-  <div class="card categories">
-    <div class="card-header">
-      <h2>{{ category_name }}</h2>
-    </div>
+  {% comment %} VALIDAR SI LA CATEGORIA ES ALGUNA DISTINTA DE FAQS PARA SOLO MOSTRAR ESA {% endcomment %}
+  {% if category_name != 'FAQS' %}
+    {% assign posts_of_category = category | last %}
 
-    <div class="card-body">
-      <ul>
-        {% for post in posts_of_category %}
-          <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-
-  {% assign sub_categories = '' | split: '' %}
-  {% for post in posts_of_category %}
-    {% assign second_category = post.categories[1] %}
-    {% if second_category %}
-      {% unless sub_categories contains second_category %}
-        {% assign sub_categories = sub_categories | push: second_category %}
-      {% endunless %}
-    {% endif %}
-  {% endfor %}
-
-  {% assign sub_categories = sub_categories | sort %}
-  {% assign sub_categories_size = sub_categories | size %}
-
-  <!-- Sub-categorías -->
-  {% if sub_categories_size > 0 %}
-    <div class="card subcategories">
+    <div class="card categories">
       <div class="card-header">
-        <h3>Subcategorías</h3>
+        <h2>{{ category_name }}</h2>
       </div>
 
       <div class="card-body">
         <ul>
-          {% for sub_category in sub_categories %}
+          {% for post in posts_of_category %}
             <li>
-              <a href="/categories/{{ sub_category | slugify }}">{{ sub_category }}</a>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </li>
           {% endfor %}
         </ul>
       </div>
     </div>
+
+    {% assign sub_categories = '' | split: '' %}
+    {% for post in posts_of_category %}
+      {% assign second_category = post.categories[1] %}
+      {% if second_category %}
+        {% unless sub_categories contains second_category %}
+          {% assign sub_categories = sub_categories | push: second_category %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign sub_categories = sub_categories | sort %}
+    {% assign sub_categories_size = sub_categories | size %}
+
+    <!-- Sub-categorías -->
+    {% if sub_categories_size > 0 %}
+      <div class="card subcategories">
+        <div class="card-header">
+          <h3>Subcategorías</h3>
+        </div>
+
+        <div class="card-body">
+          <ul>
+            {% for sub_category in sub_categories %}
+              <li>
+                <a href="/categories/{{ sub_category | slugify }}">{{ sub_category }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    {% endif %}
   {% endif %}
 {% endfor %}
