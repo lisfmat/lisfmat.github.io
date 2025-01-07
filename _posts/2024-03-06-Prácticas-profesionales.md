@@ -18,11 +18,11 @@ Las Prácticas Profesionales tienen una duración de **al menos 320 horas** y ot
 
 Las Prácticas Profesionales se podrán realizar una vez que el alumno haya aprobado 180 créditos y se acredita en la asignatura Prácticas Profesionales, la cual otorga los 8 créditos.
 
-#Lugares para realizar las Prácticas Profesionales
+# Lugares para realizar las Prácticas Profesionales
 
 Se podrán realizar en las diferentes dependencias de la UADY o en cualquier otra institución, empresa u organización (pública o privada), que aporten a los estudiantes experiencia profesional **en concordancia con el objetivo y perfil de egreso establecido**; previa solicitud y aprobación del Coordinador de Carrera. 
 
-#Talleres de Prácticas Profesionales
+# Talleres de Prácticas Profesionales
 
 Para aprobar la asignatura Prácticas Profesionales se deben cursar 2 de los 3 talleres que se ofertan en los períodos enero-mayo y agosto-diciembre.
 {: .prompt-tip }
